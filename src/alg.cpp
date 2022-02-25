@@ -11,6 +11,7 @@ bool checkPrime(uint64_t value) {
         for (int i = 2; i < z; i++) {
             if (z % i == 0) {
                 a = false;
+                break;
             }
             a = true;
         }
